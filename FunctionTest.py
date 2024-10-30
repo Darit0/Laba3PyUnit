@@ -27,5 +27,4 @@ class TestPhoneValidation(unittest.TestCase):
         result = self.phone_validator.validate_phone_numbers('data/non_numeric_input.txt')
         self.assertEqual(result, [])
 
-if __name__ == '__main__':
-    unittest.main()
+

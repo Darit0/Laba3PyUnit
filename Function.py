@@ -127,4 +127,6 @@ class PhoneValidation:
 
 # стартуем
 phone_validator = PhoneValidation()
-phone_validator.main_menu()
+
+if __name__ == '__main__':
+    phone_validator.main_menu()
